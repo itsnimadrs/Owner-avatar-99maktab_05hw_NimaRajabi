@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="s4.js"></script>
+    <button onclick="showNotification()">Show Notification</button>
+    <style>
+      .notification {
+    position: fixed;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+}
+
+.notification.welcome {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.notification.welcome:before {
+    content: "🎉";
+    margin-right: 5px;
+}
+
+    </style>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e970fd;
+}
+
+.card {
+  width: 320px;
+  height: 320px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom right, #9b59b6, #8e44ad);
+  filter: drop-shadow(5px 5px 10px rgb(53, 50, 50));
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9rem;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: yellowgreen;
+  display: block;
+  margin-left: 1.5rem;
+  filter: drop-shadow(5px 5px 10px rgb(50, 50, 50));
+  display: inline-block;
+  margin-top: 20px;
+  border: 5px solid white;
+}
+
+.name {
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  margin-left: 1.5rem;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: yellow;
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+}
+
+.bio {
+  clear: both;
+  text-align: justify;
+  color: white;
+  margin-left: 1.5rem;
+  font-size: small;
+  margin-top: -10px;
+  margin-bottom: 1.5rem;
+}
+
+.social {
+  list-style-type: none;
+  margin-top: 10px;
+  margin-left: -1rem;
+  margin-bottom: 1rem;
+}
+
+.social li {
+  display: inline-block;
+}
+
+.social a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.social .twitter {
+  background-color: #1da1f2;
+}
+
+.social .facebook {
+  background-color: #1877f2;
+}
+
+.social .linkedin {
+  background-color: #0a66c2;
+}
